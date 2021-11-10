@@ -1,0 +1,104 @@
+<html>
+<head> 
+    <title>Venezuela Presentation</title> 
+<link rel="stylesheet" type="text/css" href="style.css">
+ 
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="main.js"></script>
+</head>
+<body>
+  <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"> Heading </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li><a href="#map">VENEZUELAN-MAP</a></li>
+            <li><a href="#terrain">LANDSCAPE</a></li>
+            <li><a href="#biolife">BIODIVERSITY</a></li>
+            <li><a href="#fun stuff">FUN-FACTS</a></li>
+        </ul>
+    </div>
+</nav>
+
+  <div class="title">
+  
+    <hr class="hr">
+    <h1>
+      Venezuela
+       Presentation
+    </h1>
+    <br>
+    <h6>By Chiraag Valadri Gadasam Reddy </h6>
+    <hr class="hr">
+  </div>
+  &nbsp;
+   <div id="map">
+    <h4 class="head">
+    Venezuela-Map
+    </h4>
+    <span>
+      <img class="img" onclick="one()" src="data:image/jpeg;base64,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" >
+      <img class="img" onclick="one()" src="https://geology.com/world/venezuela-map.gif" >
+    </span>
+  </div>
+  &nbsp;
+  <div id="terrain">
+    <h4 class="head">
+    Landscape and Terrain
+    </h4>
+    <div>
+      <img class="img" onclick="two()" src="https://cdn.pixabay.com/photo/2017/04/08/17/39/mountains-2213875_960_720.jpg" >
+      <img class="img" onclick="two()" src="https://www.worldtravelguide.net/wp-content/uploads/2019/03/shu-South-America-Venezuela-Caracas-584774698-1440x823.jpg">
+    </div>
+    </div>
+    &nbsp;
+<div id="biolife">
+    <h4 class="head">
+Plants and Animals of Venezuela 
+    </h4>
+    <div>
+      <span>
+      <img class="img2" onclick="three1()" src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/144844321/1800" >
+      <img class="img2" onclick="three2()" src="https://cdn11.bigcommerce.com/s-ookf1bkiza/images/stencil/1280x1280/products/22730/26421/cmos1b__45385.1536181521.jpg?c=2">
+      <img class="img2" onclick="three3()" src="https://www.neprimateconservancy.org/uploads/1/5/3/8/15380094/howler-black-istock-49428994-large-resize_3_orig.jpg">
+      <img class="img2" onclick="three4()" src="https://cdn.britannica.com/79/191679-050-C7114D2B/Adult-capybara.jpg">
+    </span>
+
+      <img class="img2" onclick="three5()" src="https://www.potawatomizoo.org/wp-content/uploads/2018/03/Giant-Anteater-1024x658.jpg">
+      <img class="img2" onclick="three6()" src="https://images.immediate.co.uk/production/volatile/sites/23/2018/12/P.brasiliensis_Sergio-Pitamitz_Getty-15005b8-3822ef2.jpg?quality=90&resize=768,574">
+      <img class="img2" onclick="three7()" src="https://media.kidadl.com/609bd848497accaaefd1c92f_read_these_amazing_white_bellied_spider_monkey_facts_cd82a36980.jpg">
+      <img class="img2" onclick="three8()" src="https://images.fineartamerica.com/images-medium-large-5/crab-eating-fox-science-photo-library.jpg">
+    </div>
+  </div>
+  &nbsp;
+  <div id="fun stuff">
+    <h4 class="head">
+Fun Facts about Venezuela
+    </h4>
+    <div>
+      <h5>1. Venezuela is home to the world's highest waterfall (Angel Falls ).</h5>
+      &nbsp;
+      <h5>2. Venezuela is home to the world’s largest rodent.</h5>
+      &nbsp;
+      <h5>3. Venezuela has a population of 29 million.</h5>
+      &nbsp;
+      <h5>4. Venezuela has about 8000 differant speices of animals.</h5>
+      &nbsp;
+      <h5>5. Man inhabited the land about 15000 years ago. </h5>
+      </div>
+    </div>
+  </body>
+    </html>
+
